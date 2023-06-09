@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -FRam | tr -d '*'
+ls -Fam | tr -d '*'
