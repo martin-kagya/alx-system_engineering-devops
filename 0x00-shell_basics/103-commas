@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -RFam |egrep -v '^\*'
+ls -FRam | tr -d '*'
