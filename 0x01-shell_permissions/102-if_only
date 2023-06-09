@@ -1,0 +1,2 @@
+#!/bin/bash
+chown betty $(find . -type f -user old_user)
