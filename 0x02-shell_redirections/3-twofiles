@@ -1,2 +1,2 @@
 #!/bin/bash
-paste /etc/passwd /etc/hosts
+multitail /etc/passwd /etc/hosts
