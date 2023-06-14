@@ -1,2 +1,9 @@
 #!/bin/bash
-echo {a..z}{a..z}"\n" | grep -v "oo" 
+for i in {a..z}; do
+  for j in {a..z}; do
+    if [[ $i != "o" && $j != "o" ]]; then
+      echo "$i$j"
+    fi
+  done
+done
+
