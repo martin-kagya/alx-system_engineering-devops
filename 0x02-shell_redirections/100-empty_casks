@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type d -empty -o -type f -empty -print0 | xargs -0 -n1 echo
+find . -type d -empty -o -type f empty printf '%f\n'
