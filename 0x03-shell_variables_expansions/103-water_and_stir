@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "(($(printf '%d' "$WATER" | bc -l -ibase=water)+$(printf '%d' "$STIR" | bc -l -ibase=.stir) ))" | bc -l -ibase=bestchol
